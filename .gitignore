@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.tmp
+*.bak
+*.swp
+*.swo
+*.env
+.env*
+venv/
+ENV/
+.envrc
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtual Environments
+prj1-venv/
+
+# Node
+node_modules/
+
+# System Files
+Thumbs.db
+Desktop.ini
+
+# Others
+*.orig
+*.rej
+*.out
+*.coverage
+*.mypy_cache/
+*.pytest_cache/
+*.tox/
+*.cache/
+*.idea/
+*.sublime-workspace
+*.sublime-project
+
+
+# Ignore compiled files
+*.pyc
+
+# Ignore test and temp folders
+test/
+tests/
+tmp/
+temp/
+
+# Ignore personal files
+*.personal
+
+# Ignore backup files
+*.bak
+
+# Ignore API keys and secrets
+secrets.json
+*.secret
+*.key
+*.pem
+*.crt
+*.csr
+
+# Ignore output files
+output/
+*.out
+
+# Ignore documentation builds
+docs/_build/
+
+# Ignore coverage reports
+htmlcov/
+coverage.xml
+
+# Ignore static and media files
+static/
+media/
+
+# Ignore files from all projects
+project-1/prj1-venv/
+project-2/prj2-venv/
+project-3/prj3-venv/
+project-4/prj4-venv/
+project-5/prj5-venv/
