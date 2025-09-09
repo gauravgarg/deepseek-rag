@@ -8,20 +8,79 @@ This repository contains multiple AI-powered projects for text summarization, te
 - `project-2`: Text Generator
 - `project-3`: Grammar & Spell Checker
 
+
+## Installation Steps
+
+
+### 1. Python Setup
+
+Make sure you have Python 3.8+ installed. You can check your version with:
+```sh
+python3 --version
+```
+
+#### Install Python
+
+- **macOS:**
+  - Recommended: Install Homebrew from [https://brew.sh/](https://brew.sh/)
+  - Then run:
+    ```sh
+    brew install python
+    ```
+  - Or download the official installer from [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+- **Windows:**
+  - Download the installer from [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
+  - Run the installer and check "Add Python to PATH" during installation.
+
+- **Linux (Debian/Ubuntu):**
+  - Run:
+    ```sh
+    sudo apt update
+    sudo apt install python3 python3-venv python3-pip
+    ```
+
+#### Create a Virtual Environment
+It is recommended to use a virtual environment for each project:
+```sh
+python3 -m venv prj1-venv
+source prj1-venv/bin/activate
+```
+
+#### Install Dependencies
+```sh
+pip install -r requirement.txt
+```
+
+### 2. Ollama Installation
+
+Download and install Ollama from [https://ollama.com/](https://ollama.com/).
+Start Ollama locally:
+```sh
+ollama serve
+```
+Ollama should be running at [http://localhost:11434/](http://localhost:11434/).
+
+### 3. Model Setup
+
+Pull the required model (e.g., DeepSeek) using Ollama:
+```sh
+ollama pull deepseek-r1
+```
+You can pull other models as needed. See Ollama documentation for more options.
+
+---
+
 ## Quick Start
 
 1. **Clone the repository:**
-   ```sh
-git clone <your-repo-url>
-cd deepseek-rag
-```
+  ```sh
+  git clone <your-repo-url>
+  cd deepseek-rag
+  ```
 2. **Environment Setup:**
-   - Each project has its own `README.md` with setup and run instructions.
-   - Follow the environment setup steps in `project-1/README.md` (recommended for all projects).
-
-## Prerequisite
-
-To run any project in this repository, you must have Ollama running locally. Download and start Ollama from [https://ollama.com/](https://ollama.com/) and ensure it is running at [http://localhost:11434/](http://localhost:11434/) before launching any API, CLI, or web app.
+  - Each project has its own `README.md` with setup and run instructions.
+  - Follow the environment setup steps in `project-1/README.md` (recommended for all projects).
 
 ## Project Overviews & Usage
 
