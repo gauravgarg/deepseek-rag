@@ -5,7 +5,7 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 
 def query_deepseek(prompt):
     payload = {
-        "model": "deepseek-r1",
+        "model": "phi",
         "prompt": prompt,
         "stream": False
     }
