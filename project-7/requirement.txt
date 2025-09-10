@@ -1,0 +1,5 @@
+requests
+gradio
+fastapi
+pyttsx3
+speechrecognition
