@@ -1,0 +1,7 @@
+requests
+gradio
+fastapi
+fitz
+pdf2image
+pytesseract
+pymupdf
