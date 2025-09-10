@@ -113,7 +113,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn text-summarizer-api:app --reload`
   - CLI: `python text-summarizer-cli.py`
   - Web: `python text-summarizer-web.py`
-- See `project-1/README.md` for details.
+- See [project-1/README.md](project-1/README.md) for details.
 
 ### 2. Text Generator (`project-2`)
 - **Purpose:** Generate creative, professional, or SEO-friendly text for blogs, emails, product descriptions, stories, and chatbots.
