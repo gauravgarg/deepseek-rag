@@ -102,3 +102,5 @@ project-2/prj2-venv/
 project-3/prj3-venv/
 project-4/prj4-venv/
 project-5/prj5-venv/
+
+.gradio/
