@@ -121,7 +121,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn text-generator-api:app --reload`
   - CLI: `python text-generator-cli.py`
   - Web: `python text-generator-web.py`
-- See `project-2/README.md` for details.
+- See [project-2/README.md](project-2/README.md) for details.
 
 ### 3. Grammar & Spell Checker (`project-3`)
 - **Purpose:** Correct grammar and spelling in essays, emails, news articles, and official documents.
@@ -129,7 +129,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn grammer-checker-api:app --reload`
   - CLI: `python grammer-checker-cli.py`
   - Web: `python grammer-checker-web.py`
-- See `project-3/README.md` for details.
+- See [project-3/README.md](project-3/README.md) for details.
 
 ### 4. NER Extractor (`project-4`)
 - **Purpose:** Extract named entities (person, organization, location, etc.) from text for information retrieval, knowledge graphs, and data analysis.
@@ -137,8 +137,15 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn ner-extractor-api:app --reload`
   - CLI: `python ner-extractor-cli.py`
   - Web: `python ner-extractor-web.py`
-- See `project-4/README.md` for details.
+- See [project-4/README.md](project-4/README.md) for details.
 
+### 5. Sentiment Analysis (`project-5`)
+- **Purpose:** Sentiment analysis captures customer emotions, tracks public opinion, supports better decisions, and automates large-scale text analysis.
+- **How to Run:**
+  - API: `uvicorn sentiment-analysis-api:app --reload`
+  - CLI: `python sentiment-analysis-cli.py`
+  - Web: `python sentiment-analysis-web.py`
+- See [project-5/README.md](project-5/README.md) for details.
 
 ### 6. Customer Support Bot (`project-6`)
 - **Purpose:** AI-powered customer support automation for chat, email, and web.
@@ -146,7 +153,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn customer-support-bot-api:app --reload`
   - CLI: `python customer-support-bot-cli.py`
   - Web: `python customer-support-bot-web.py`
-- See `project-6/README.md` for details.
+- See [project-6/README.md](project-6/README.md) for details.
 
 ### 7. AI Assistant (`project-7`)
 - **Purpose:** General-purpose AI assistant for productivity and automation.
@@ -154,7 +161,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn ai-assistant-api:app --reload`
   - CLI: `python ai-assistant-cli.py`
   - Web: `python ai-assistant-web.py`
-- See `project-7/README.md` for details.
+- See [project-7/README.md](project-7/README.md) for details.
 
 ### 8. Legal Assistant (`project-8`)
 - **Purpose:** Automate legal document review and legal queries.
@@ -162,7 +169,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn legal-assistant-api:app --reload`
   - CLI: `python legal-assistant-cli.py`
   - Web: `python legal-assistant-web.py`
-- See `project-8/README.md` for details.
+- See [project-8/README.md](project-8/README.md) for details.
 
 ### 9. Symptom Checker (`project-9`)
 - **Purpose:** AI-based health symptom checker and triage tool.
@@ -170,7 +177,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn symptom-checker-api:app --reload`
   - CLI: `python symptom-checker-cli.py`
   - Web: `python symptom-checker-web.py`
-- See `project-9/README.md` for details.
+- See [project-9/README.md](project-9/README.md) for details.
 
 ### 10. Product Recommender (`project-10`)
 - **Purpose:** Recommend products based on user preferences and history.
@@ -178,7 +185,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn product-recommender-api:app --reload`
   - CLI: `python product-recommender-cli.py`
   - Web: `python product-recommender-web.py`
-- See `project-10/README.md` for details.
+- See [project-10/README.md](project-10/README.md) for details.
 
 ### 11. Email Responder (`project-11`)
 - **Purpose:** Automate email replies and customer communication.
@@ -186,7 +193,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn email-responder-api:app --reload`
   - CLI: `python email-responder-cli.py`
   - Web: `python email-responder-web.py`
-- See `project-11/README.md` for details.
+- See [project-11/README.md](project-11/README.md) for details.
 
 ### 12. Resume Generator (`project-12`)
 - **Purpose:** Generate professional resumes from user input.
@@ -194,7 +201,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn resume-generator-api:app --reload`
   - CLI: `python resume-generator-cli.py`
   - Web: `python resume-generator-web.py`
-- See `project-12/README.md` for details.
+- See [project-12/README.md](project-12/README.md) for details.
 
 ### 13. Meeting Minutes Generator (`project-13`)
 - **Purpose:** Create meeting minutes from transcripts or notes.
@@ -202,7 +209,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn meeting-minutes-api:app --reload`
   - CLI: `python meeting-minutes-cli.py`
   - Web: `python meeting-minutes-web.py`
-- See `project-13/README.md` for details.
+- See [project-13/README.md](project-13/README.md) for details.
 
 ### 14. PDF Text Extractor (`project-14`)
 - **Purpose:** Extract text from PDF documents for analysis or search.
@@ -210,7 +217,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn pdf-text-extractor-api:app --reload`
   - CLI: `python pdf-text-extractor-cli.py`
   - Web: `python pdf-text-extractor-web.py`
-- See `project-14/README.md` for details.
+- See [project-14/README.md](project-14/README.md) for details.
 
 ### 15. Content Writer (`project-15`)
 - **Purpose:** Generate articles, blog posts, and marketing content.
@@ -218,7 +225,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn content-writer-api:app --reload`
   - CLI: `python content-writer-cli.py`
   - Web: `python content-writer-web.py`
-- See `project-15/README.md` for details.
+- See [project-15/README.md](project-15/README.md) for details.
 
 ### 16. Code Autocompleter (`project-16`)
 - **Purpose:** AI-powered code completion for developers.
@@ -226,7 +233,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn code-autocompleter-api:app --reload`
   - CLI: `python code-autocompleter-cli.py`
   - Web: `python code-autocompleter-web.py`
-- See `project-16/README.md` for details.
+- See [project-16/README.md](project-16/README.md) for details.
 
 ### 17. SQL Query Generator (`project-17`)
 - **Purpose:** Generate SQL queries from natural language prompts.
@@ -234,7 +241,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn sql-query-generator-api:app --reload`
   - CLI: `python sql-query-generator-cli.py`
   - Web: `python sql-query-generator-web.py`
-- See `project-17/README.md` for details.
+- See [project-17/README.md](project-17/README.md) for details.
 
 ### 18. Code Debugger (`project-18`)
 - **Purpose:** Assist with debugging code and finding errors.
@@ -242,7 +249,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn code-debugger-api:app --reload`
   - CLI: `python code-debugger-cli.py`
   - Web: `python code-debugger-web.py`
-- See `project-18/README.md` for details.
+- See [project-18/README.md](project-18/README.md) for details.
 
 ### 19. Code Documenter (`project-19`)
 - **Purpose:** Automatically generate documentation for codebases.
@@ -250,14 +257,14 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn code-documenter-api:app --reload`
   - CLI: `python code-documenter-cli.py`
   - Web: `python code-documenter-web.py`
-- See `project-19/README.md` for details.
+- See [project-19/README.md](project-19/README.md) for details.
 
 ### 20. API Tester (`project-20`)
 - **Purpose:** Test and validate APIs with automated tools.
 - **How to Run:**
   - CLI: `python api-tester-cli.py`
   - Web: `python api-tester-web.py`
-- See `project-20/README.md` for details.
+- See [project-20/README.md](project-20/README.md) for details.
 
 ### 21. Feedback Analyzer (`project-21`)
 - **Purpose:** Analyze customer feedback for insights and trends.
@@ -265,14 +272,14 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn feedback-analyzer-api:app --reload`
   - CLI: `python feedback-analyzer-cli.py`
   - Web: `python feedback-analyzer-web.py`
-- See `project-21/README.md` for details.
+- See [project-21/README.md](project-21/README.md) for details.
 
 ### 22. News Summarizer (`project-22`)
 - **Purpose:** Summarize news articles and headlines using AI.
 - **How to Run:**
   - CLI: `python news-summarizer-cli.py`
   - Web: `python news-summarizer-web.py`
-- See `project-22/README.md` for details.
+- See [project-22/README.md](project-22/README.md) for details.
 
 ### 23. Financial Analyzer (`project-23`)
 - **Purpose:** Analyze financial data and generate reports.
@@ -280,7 +287,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn financial-analyzer-api:app --reload`
   - CLI: `python financial-analyzer-cli.py`
   - Web: `python financial-analyzer-web.py`
-- See `project-23/README.md` for details.
+- See [project-23/README.md](project-23/README.md) for details.
 
 ### 24. Job Screener (`project-24`)
 - **Purpose:** Screen job applications and resumes using AI.
@@ -288,7 +295,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn job-screener-api:app --reload`
   - CLI: `python job-screener-cli.py`
   - Web: `python job-screener-web.py`
-- See `project-24/README.md` for details.
+- See [project-24/README.md](project-24/README.md) for details.
 
 ### 25. Paper Summarizer (`project-25`)
 - **Purpose:** Summarize academic papers and research articles.
@@ -296,7 +303,7 @@ You can pull other models as needed. See Ollama documentation for more options.
   - API: `uvicorn paper-summarizer-api:app --reload`
   - CLI: `python paper-summarizer-cli.py`
   - Web: `python paper-summarizer-web.py`
-- See `project-25/README.md` for details.
+- See [project-25/README.md](project-25/README.md) for details.
 
 ## How to Navigate
 
